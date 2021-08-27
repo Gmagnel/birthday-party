@@ -1,0 +1,31 @@
+$ git branch
+* master
+  moma
+  whitney
+
+$ git branch -D  moma whitney
+Deleted branch moma (was 978e5a1).
+Deleted branch whitney (was 9b384f9).
+
+$git branch unordered-list
+
+$ git add .
+
+$ git commit -m "Have added new text to the index.html"
+
+On branch master
+nothing to commit, working directory clean
+$ git switch master
+
+$ git merge unordered-list
+
+$ git branch big-heading
+
+$ git swtich big-heading
+
+$ git add .
+
+$ git commit -m "adding the index.html to the staging area"
+
+$ git git switch master
+$ git merge unordered-list/master
